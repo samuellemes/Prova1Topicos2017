@@ -1,29 +1,29 @@
 package br.edu.univas.si8.ta.fibcalc.api;
 
 public class Result {
-	private int num;
-	private int result;
+	private int number;
+	private int fibonacci;
 	
-	public int getNum() {
-		return num;
+	public int getNumber() {
+		return number;
 	}
-	public void setNum(int num) {
-		this.num = num;
+	public void setNumber(int num) {
+		this.number = num;
 	}
 	
 	public Result withNum (int num) {
-		this.num = num;
+		this.number = num;
 		return this;
 	}
-	public int getResult() {
-		return result;
+	public int getFibonacci() {
+		return fibonacci;
 	}
-	public void setResult(int result) {
-		this.result = result;
+	public void setFibonacci(int result) {
+		this.fibonacci = result;
 	}
 	
 	public Result withResult (int result){
-		this.result = result;
+		this.fibonacci = result;
 		return this;
 	}
 	

@@ -7,8 +7,8 @@ import br.edu.univas.si8.ta.fibcalc.lib.CalcFibibonacci;
 public class FibclacServiceImpl implements FibcalcService{
 	
 	public Result fib (int num) {
-		int result = CalcFibibonacci.fibonacci(num);
-		return new Result().withNum(num).withResult(result);
+		int resultado = CalcFibibonacci.fibonacci(num);
+		return new Result().withNum(num).withResult(resultado);
 	}
 
 }
